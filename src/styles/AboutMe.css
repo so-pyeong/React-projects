@@ -1,0 +1,45 @@
+.AboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.profile-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.profile-card:hover {
+  transform: scale(1.05); /* 마우스를 올리면 항목이 확대됨 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 효과 */
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+}
+
+.profile-card h3 {
+  margin: 10px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.profile-card p {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}

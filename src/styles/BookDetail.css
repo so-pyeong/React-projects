@@ -1,0 +1,55 @@
+.book-detail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.book-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.book-detail h2 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.book-detail p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* 수정된 뒤로가기 버튼 스타일 - 세련되고 미니멀한 디자인 */
+.book-detail .back-button {
+    background-color: transparent;
+    color: #1f93ff;
+    border: 1px solid #1f93ff;
+    font-size: 0.95em;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 20px; /* 둥근 모서리 */
+    font-weight: 600;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.book-detail .back-button:hover {
+    color: #fff;
+    background-color: #1f93ff;
+    transform: translateY(-2px); /* 살짝 위로 이동하는 효과 */
+}
+
+.book-detail .back-button:focus {
+    outline: none;
+    box-shadow: 0 0 3px 2px rgba(31, 147, 255, 0.6);
+}
